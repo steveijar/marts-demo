@@ -7,8 +7,6 @@ from openai import OpenAI
 val = input("enter api key: ")
 
 client = OpenAI(
-    # This is the default and can be omitted
-   # api_key=os.getenv("OPENAIKEY"),
      api_key = val
 )
 
